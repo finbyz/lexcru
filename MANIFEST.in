@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lexcru *.css
+recursive-include lexcru *.csv
+recursive-include lexcru *.html
+recursive-include lexcru *.ico
+recursive-include lexcru *.js
+recursive-include lexcru *.json
+recursive-include lexcru *.md
+recursive-include lexcru *.png
+recursive-include lexcru *.py
+recursive-include lexcru *.svg
+recursive-include lexcru *.txt
+recursive-exclude lexcru *.pyc
